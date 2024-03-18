@@ -1,7 +1,0 @@
-day4
-
-task:
-    1.Tasks can have any number of inputs and outputs.
-    2.Tasks can include timing delays, such as posedge, negedge, # delay, and wait.
-    3.Tasks can call another task or function.
-    4.Tasks can be used for modeling both combinational and sequential logic.
