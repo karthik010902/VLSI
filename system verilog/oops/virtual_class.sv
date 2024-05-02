@@ -1,6 +1,6 @@
 /* virtual class
      1. we can't access virtual class in normal handle method.
-     2. we can access virtual class through extended class.
+     2. but we can access virtual class through extended class.
 */
 // crate virtual class
 virtual class usr_profile;
