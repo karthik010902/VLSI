@@ -3,8 +3,6 @@ module test;
   
   // crating instante name
   fuladd intf();
-  // module instante
-  fa dut(.a(intf.a), .b(intf.b), .ci(intf.ci), .s(intf.s), .cry(intf.cry));
   
   initial
     begin
