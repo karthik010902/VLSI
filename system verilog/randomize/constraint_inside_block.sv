@@ -1,4 +1,4 @@
-// constraint within block example code
+// constraint inside block example code
 class rando;
   rand int d1;
   randc int d2;
