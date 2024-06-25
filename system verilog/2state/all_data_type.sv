@@ -13,7 +13,7 @@ module _2state;
     b=1;
     c=1566.1234;
     d=983648250.379552;
-    e=9265936759269365825.695592586;
+    e=9265965825.695592586;
   endtask
   
   task dis;
@@ -23,9 +23,7 @@ module _2state;
     $display("int d=%0d",d);
     $display("longint e=%0d",e);
   endtask
-             
-    
-  
+ 
   initial begin
     $display("-------default value---------");
     $display(a);
@@ -33,6 +31,7 @@ module _2state;
     $display(c);
     $display(d);
     $display(e);
+    $display("-----------------------------");
     value_assign;
     dis; 
   end
