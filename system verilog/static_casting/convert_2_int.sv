@@ -1,3 +1,4 @@
+// casting used for convert one datatype to another datatype
 module casting;
   integer integer_data;
   int int_data;
