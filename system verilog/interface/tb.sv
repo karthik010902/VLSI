@@ -1,8 +1,9 @@
-// test_bench module
 module test;
   
   // crating instante name
   fuladd intf();
+  // dut instante
+  fa dut(.a(intf.a), .b(intf.b), .ci(intf.ci), .s(intf.s), .cry(intf.cry));
   
   initial
     begin
@@ -27,4 +28,3 @@ module test;
     end
   
 endmodule
-          
