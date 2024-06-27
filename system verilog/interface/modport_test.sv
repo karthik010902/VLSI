@@ -1,4 +1,4 @@
-`include "interface.sv"
+`include "modport_interface.sv"
 module test_bench(g_if inf);
   
   initial begin
