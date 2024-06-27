@@ -5,7 +5,6 @@ interface fuladd;
   logic ci;
   logic s;
   logic cry;
-fa dut(.a(intf.a), .b(intf.b), .ci(intf.ci), .s(intf.s), .cry(intf.cry));
 endinterface
 
 // full adder module
