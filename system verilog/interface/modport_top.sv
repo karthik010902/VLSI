@@ -1,4 +1,4 @@
-`include "test.sv"
+`include "modport_test.sv"
 module top;
   
   // interface 
